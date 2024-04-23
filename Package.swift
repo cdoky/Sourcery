@@ -224,7 +224,7 @@ var targets: [Target] = [
                 description: "Sourcery command plugin for code generation"
             ),
             permissions: [
-                .writeToPackageDirectory(reason: "Need permission to write generated files to package directory")
+                //.writeToPackageDirectory(reason: "Need permission to write generated files to package directory")
             ]
         ),
         dependencies: ["SourceryExecutable"]
